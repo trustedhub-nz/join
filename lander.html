@@ -8,7 +8,21 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
-<body>
+<!-- POPUP MODAL -->
+<div class="modal-backdrop" id="agePopup">
+  <div class="modal">
+    <button class="modal-close" onclick="closePopup()">✕</button>
+
+    <h2>Age Confirmation</h2>
+    <p>You must be 18+ to continue to the main site.</p>
+
+    <div style="display:flex;gap:12px;margin-top:16px;">
+      <a href="index.html" class="btn">I am 18+</a>
+      <a href="lander.html" class="btn ghost">Under 18</a>
+    </div>
+  </div>
+</div
+  <body>
  <style>
   body {
     margin: 0;
